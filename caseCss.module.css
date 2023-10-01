@@ -1,0 +1,66 @@
+*{
+    font-family: monospace;
+    text-align: center;
+
+}
+.allcards{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(180, 211, 221);
+}
+
+/* .mainDisplay{
+    display: flex;
+    flex-direction: column;
+} */
+.CardsContainer{
+    margin-left: 2vw;
+    width: 50vw;
+}
+.Container{
+    width: 45vw;
+    height: 20vh;
+    margin-top: 1.4vw;
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
+    border: 1px solid rgb(122, 128, 130);
+    background-color: white;
+    box-shadow: 0.1px 0.1px 7px 1px rgb(28, 26, 26);
+
+    
+}
+.title{
+    font-size: 20px ;
+    font-weight: 700;
+}
+
+button{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+.selected{
+    
+    border:3.5px solid rgb(0, 86, 86);
+
+}
+.likedislikeCount{
+    margin-top: 12px;
+}
+.CaseCardShow{
+    background-color: white;
+    width: 50vw;
+    height: 60vh;
+    margin-right: 2vw;
+    margin-top: 1.4vw;
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
+    border: 1px solid rgb(122, 128, 130);
+    font-size: 16px;
+    font-weight: 500;padding-top: 20px;
+    overflow-y: auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    box-shadow: 0.1px 0.1px 7px 1px rgb(28, 26, 26);
+
+}
